@@ -18,7 +18,8 @@ within a VPC and avoids exposing private EC2s to the public internet.
 - GitHub
 
 ## 📐 Architecture
-> [Insert `architecture.png` here]
+
+![Architecture Diagram](./architecture.png)
 The setup includes:
 - A VPC with public and private subnets
 - Internet Gateway for public access
@@ -38,7 +39,7 @@ Documented in [`setup-steps.md`](./setup-steps.md)
 - Attached proper route table to allow the private EC2 instance to access the internet for updates, package installations, etc.
 
 ## 📸 Screenshots
-Check the `/screenshots` folder for:
+Check the [`/screenshots`](./screenshots) folder for:
 - VPC and subnet setup
 - Route table configuration
 - SSH connections
