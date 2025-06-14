@@ -1,0 +1,2 @@
+> This architecture shows a secure VPC setup with a public subnet containing a Bastion Host and a private subnet hosting 
+an EC2 instance, accessed only through the Bastion Host. A NAT Gateway allows outbound internet access from the private EC2.
